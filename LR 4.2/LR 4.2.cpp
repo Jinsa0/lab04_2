@@ -1,4 +1,4 @@
-// Lab_04_2.cpp
+// LR 4.2.cpp
 // Кіц Роман Романович
 // Лабораторна робота № 4.2
 // Табуляція функції, заданої формулою: функція однієї змінної.
@@ -31,7 +31,7 @@ int main()
         {
             // при x = 0 доданок (2+x)/x^2 не визначений, виводимо "undef"
             cout << "|" << setw(7) << setprecision(2) << x
-                << "    |" << setw(10) << "undef"
+                << "    |" << setw(8) << "undef"
                 << "     |" << endl;
         }
         else
@@ -49,7 +49,7 @@ int main()
             y = A + B;
 
             cout << "|" << setw(7) << setprecision(2) << x
-                << "    |" << setw(10) << setprecision(3) << y
+                << "    |" << setw(8) << setprecision(3) << y
                 << "     |" << endl;
         }
         x += dx;
